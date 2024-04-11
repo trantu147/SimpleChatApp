@@ -101,6 +101,7 @@ public class ChatClient {
 			inputTextField.setFont(f1);
 			sendButton = new JButton("Send");
 			sendButton.setFont(f2);
+			System.out.println("Send button font: " + sendButton.getFont());
 			
 			box.add(inputTextField);
 			box.add(sendButton);
